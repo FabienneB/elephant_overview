@@ -1,0 +1,41 @@
+.mobile-dropdown {
+  display: none;
+}
+
+.custom-dropdown {
+  width: 100%;
+  background-color: white;
+  border: none;
+}
+
+.selection-wrapper {
+  padding: 20px;
+}
+
+select {
+  text-align-last: center; 
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right;
+  /* Remove default arrow */
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+}
+/* for IE10 */
+select::-ms-expand {
+  display: none;
+}
+
+/* Design for mobile */
+@media (max-width: 1000px) {
+  .header {
+    background: #E9E3E6;
+    height: 40px;
+    width:100%;
+   }
+
+  .mobile-dropdown {
+    display: block;
+  }
+
+}
