@@ -43,6 +43,7 @@
           this.imageLink = elephantData.image;
           this.wikiLink = elephantData.wikilink;
         }).catch((error) => {
+          this.$emit('error', error);
           console.log(error);
         });
       }
