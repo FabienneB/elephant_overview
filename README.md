@@ -33,8 +33,13 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 This boilerplate comes with a couple of plugins you can use.
 It will load and configure:
  - vue
+ link: https://vuejs.org/
  - axios
+ link: https://vuejs.org/v2/cookbook/using-axios-to-consume-apis.html
  - bootstrap
+ link: https://bootstrap-vue.js.org/docs/components
+ - mocha (test)
+ link: https://mochajs.org/
 
  ## Got questions or improvements? ##
 Feel free to hit me up on:

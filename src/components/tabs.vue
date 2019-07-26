@@ -44,7 +44,6 @@
       return {
         showAlert: false,
         alertMessage: null,
-        isActive: true,
         values: { first: 'tab1', second: 'tab2', third: 'tab3' },
         titles: { first: 'Tab 1', second: 'Tab 2', third: 'Tab 3' },
       };

@@ -33,11 +33,13 @@
     },
     methods: {
       setElephant() {
-        // This API enables cross-origin requests to anywhere
-        const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
+        // To fetch data from an api with issues with its CORS header
+        // - missing or contains multiple values - you can use cors-anywhere
+        // link : https://github.com/Rob--W/cors-anywhere
+        // Its a NodeJS proxy which adds CORS headers to the proxied request
+        var proxyUrl = 'https://cors-anywhere.herokuapp.com/';
         axios.get(proxyUrl + 'https://elephant-api.herokuapp.com/elephants/random').then(response => {
-          const elephantData = response.data[0];
-          console.log(elephantData);
+          var elephantData = response.data[0];
           this.name = elephantData.name;
           this.affiliation = elephantData.affiliation;
           this.imageLink = elephantData.image;

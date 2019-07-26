@@ -1,10 +1,9 @@
 <template>
   <div class='mobile-dropdown'>
     <div class='header'></div>
-    <i class="fas fa-caret-down"></i>
     <div class='selection-wrapper'>
       <select v-model='selectedTab' class='custom-dropdown' @change='changeTab'>
-        <option :value='this.values.first'> <div class='test'>{{this.titles.first}}</div></option>
+        <option :value='this.values.first'>{{this.titles.first}}</option>
         <option :value='this.values.second'>{{this.titles.second}}</option>
         <option :value='this.values.third'>{{this.titles.third}}</option>
       </select>
@@ -20,7 +19,7 @@
     props: ['titles', 'values'],
     data() {
       return {
-        selectedTab: 'tab1',
+        selectedTab: 'tab1'
       };
     },
     methods: {
@@ -34,7 +33,6 @@
         tab.classList.add('active');
         tab.setAttribute('style', 'display:block;');
       }
-
     },
   };
 
