@@ -6,9 +6,9 @@
       </div>
       <div class='elephant-data'>
         <a :href=this.wikiLink target='_blank' class='styled-link'>
-          <h2>{{this.name}}</h2>
+          <h2>{{ this.name }}</h2>
         </a>
-        <p>{{this.affiliation}}</p>
+        <p>{{ this.affiliation }}</p>
       </div>
     </div>
   </b-tab>

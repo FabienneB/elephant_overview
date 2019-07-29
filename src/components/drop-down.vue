@@ -3,9 +3,9 @@
     <div class='header'></div>
     <div class='selection-wrapper'>
       <select v-model='selectedTab' class='custom-dropdown' @change='changeTab'>
-        <option :value='this.values.first'>{{this.titles.first}}</option>
-        <option :value='this.values.second'>{{this.titles.second}}</option>
-        <option :value='this.values.third'>{{this.titles.third}}</option>
+        <option :value='this.values.first'>{{ this.titles.first }}</option>
+        <option :value='this.values.second'>{{ this.titles.second }}</option>
+        <option :value='this.values.third'>{{ this.titles.third }}</option>
       </select>
     </div>
   </div>
@@ -33,7 +33,7 @@
         tab.classList.add('active');
         tab.setAttribute('style', 'display:block;');
       }
-    },
+    }
   };
 
 </script>

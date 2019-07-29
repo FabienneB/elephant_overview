@@ -6,7 +6,7 @@
       dismissible
       variant='danger'
       >
-      {{alertMessage}}
+      {{ alertMessage }}
     </b-alert>
     <drop-down
       v-bind:titles='titles'
