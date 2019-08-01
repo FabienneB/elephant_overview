@@ -30,8 +30,6 @@ npm test
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ## Plugins ##
-This boilerplate comes with a couple of plugins you can use.
-It will load and configure:
  - vue
  link: https://vuejs.org/
  - axios
